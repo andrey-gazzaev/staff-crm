@@ -1,0 +1,14 @@
+.mark {
+  font-family: var(--display);
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.kicker {
+  margin-top: 6px;
+  color: var(--rail-muted);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
