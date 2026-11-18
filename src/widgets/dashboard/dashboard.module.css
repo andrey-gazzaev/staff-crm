@@ -1,0 +1,17 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.charts {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(0, 0.9fr);
+  gap: 16px;
+}
+
+@media (max-width: 980px) {
+  .charts {
+    grid-template-columns: 1fr;
+  }
+}
