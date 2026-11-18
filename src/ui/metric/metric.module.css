@@ -1,0 +1,25 @@
+.metric {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 108px;
+}
+
+.label {
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.value {
+  font-family: var(--display);
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.hint {
+  color: var(--muted);
+  font-size: 14px;
+}

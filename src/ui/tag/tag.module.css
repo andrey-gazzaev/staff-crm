@@ -1,0 +1,29 @@
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.neutral {
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+.progress {
+  background: color-mix(in srgb, var(--progress) 14%, white);
+  color: var(--progress);
+}
+
+.review {
+  background: color-mix(in srgb, var(--review) 18%, white);
+  color: var(--review);
+}
+
+.done {
+  background: color-mix(in srgb, var(--done) 14%, white);
+  color: var(--done);
+}

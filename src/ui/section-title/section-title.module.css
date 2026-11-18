@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.note {
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: 14px;
+}

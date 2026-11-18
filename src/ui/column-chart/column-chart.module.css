@@ -1,0 +1,7 @@
+.frame {
+  height: 260px;
+}
+
+.frameFluid {
+  min-height: 200px;
+}
